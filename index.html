@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>РАБОТА ВЕБ МОДЕЛЬЮ В ДНЕПРЕ</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <section>
+        <h1>РАБОТА ВЕБ<br>МОДЕЛЬЮ В ДНЕПРЕ</h1>
+        <p>Не для кого не секрет, что вебкам модели зарабатывают большие деньги, их заработная плата варьируется от 700$
+            и до 1500$. Если ты готова зарабатывать, быть счастливой и независимой - тебе к нам. Мы гарантируем тебе
+            успех.</p>
+        <a class="btn" id="show">Анкета</a>
+    </section>
+    
+    
+
+    <form id="form" action="telegram.php" method="POST">
+        <img class="close" src="img/x.png">
+        <legend>Анкета</legend>
+        <div>
+            <input type="text" class="form-control" name="user_name" placeholder="Имя">
+            <input type="tel" class="form-control" name="user_tel" placeholder="Номер телефона">
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить анкету</button>
+    </form>
+
+    <div class="form_bg" id="backdrop"></div>
+    <form class="form_res" id="form_res">
+        <img class="close cl2" src="img/x.png">
+    </form>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
